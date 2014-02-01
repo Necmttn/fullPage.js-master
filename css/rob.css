@@ -1,0 +1,129 @@
+.about3-origins {
+	height: 190px;
+}
+.about3-origins p {
+	float: left;
+	height: 73px;
+	margin: 40px 0 0 0;
+	padding: 0;
+	position: relative;
+}
+.about3-origins p span {
+	text-indent: -99999em;
+	display: block;
+}
+.about3-origins p:before {
+	font-family: 'Cardo',serif;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.about3-origins p:nth-child(1) {
+	width: 150px;
+	background: transparent url('../imgs/china.png') no-repeat left top;
+}
+.about3-origins p:nth-child(1):hover {
+	background: transparent url('../imgs/china-hover.png') no-repeat left top;
+}
+.about3-origins p:nth-child(1):hover:before {
+	content: "China";
+	width: 100px;
+	position: absolute;
+	background: #FF4E50;
+	text-align: center;
+	top: -30px;
+	left: 0px;
+	color: #fff;
+	padding: 5px 0;
+}
+.about3-origins p:nth-child(2) {
+	width: 102px;
+	background: transparent url('../imgs/korea.png') no-repeat left top;
+}
+.about3-origins p:nth-child(2):hover {
+	background: transparent url('../imgs/korea-hover.png') no-repeat left top;
+}
+.about3-origins p:nth-child(2):hover:before {
+	content: "South Korea";
+	width: 100px;
+	position: absolute;
+	background: #FF4E50;
+	text-align: center;
+	top: -30px;
+	left: -20px;
+	color: #fff;
+	padding: 5px 0;
+}
+.about3-origins p:nth-child(3) {
+	width: 79px;
+	background: transparent url('../imgs/nz.png') no-repeat left top;
+}
+.about3-origins p:nth-child(3):hover {
+	background: transparent url('../imgs/nz-hover.png') no-repeat left top;
+}
+.about3-origins p:nth-child(3):hover:before {
+	content: "New Zealand";
+	width: 100px;
+	position: absolute;
+	background: #FF4E50;
+	text-align: center;
+	top: -30px;
+	left: -20px;
+	color: #fff;
+	padding: 5px 0;
+}
+.about3-origins p:nth-child(4) {
+	width: 153px;
+	background: transparent url('../imgs/endenozya.png') no-repeat left top;
+}
+.about3-origins p:nth-child(4):hover {
+	background: transparent url('../imgs/endenozya-hover.png') no-repeat left top;
+}
+.about3-origins p:nth-child(4):hover:before {
+	content: "Indonesia";
+	width: 100px;
+	position: absolute;
+	background: #FF4E50;
+	text-align: center;
+	top: -30px;
+	left: -20px;
+	color: #fff;
+	padding: 5px 0;
+}
+.about3-origins p:nth-child(5) {
+	width: 132px;
+	background: transparent url('../imgs/au.png') no-repeat left top;
+}
+.about3-origins p:nth-child(5):hover {
+	background: transparent url('../imgs/au-hover.png') no-repeat left top;
+}
+.about3-origins p:nth-child(5):hover:before {
+	content: "Australia";
+	width: 100px;
+	position: absolute;
+	background: #FF4E50;
+	text-align: center;
+	top: -30px;
+	left: -20px;
+	color: #fff;
+	padding: 5px 0;
+}
+.about3-origins p:nth-child(6) {
+	width: 20px;
+	background: transparent url('../imgs/hk.png') no-repeat left top;
+	background-size: 100% auto;
+}
+.about3-origins p:nth-child(6):hover {
+	background: transparent url('../imgs/hk-hover.png') no-repeat left top;
+	background-size: 100% auto;
+}
+.about3-origins p:nth-child(6):hover:before {
+	content: "Hong Kong";
+	width: 130px;
+	position: absolute;
+	background: #FF4E50;
+	text-align: center;
+	top: -30px;
+	left: -43px;
+	color: #fff;
+	padding: 5px 0;
+}
