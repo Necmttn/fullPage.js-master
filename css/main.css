@@ -1453,7 +1453,8 @@ a.thanks-btn:hover, a.thanks-btn:active{
 /* @end */
 /* @group General Slide Styles */
 .projects{
-	background: rgb(245, 245, 245);
+	background: #fff url('../imgs/inverted.jpg') no-repeat;
+	background-size: cover;
 }
 
 	.projects p{

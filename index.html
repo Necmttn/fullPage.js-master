@@ -14,6 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<link rel="stylesheet" type="text/css" href="example.css" />
 	<link rel="stylesheet" type="text/css" href="css/rob.css" />
+	<link rel="stylesheet" type="text/css" href="css/project.css" />
+	
+
 
 	<!--[if IE]>
 		<script type="text/javascript">
@@ -28,7 +31,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var pepe = $.fn.fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				anchors: ['intro', '', '3rdPage', '4thpage', 'lastPage'],
 				navigation: true,
 	            navigationPosition: 'right',
 	            scrollOverflow: false,
@@ -54,7 +57,26 @@
 	                    $('#section2').find('.about3-block').delay(500).fadeOut('slow');
 	                    $('#section2').find('.about3-divider').delay(500).fadeOut('slow');
 	                }
-	            }
+	            },
+	            onLeave: function(index, direction){
+		            //after leaving section 3
+		            if(index == '3' && direction =='down'){
+		                //Going to section 4!
+		                $('#section3').find('.slide').addClass('loadimage');
+		            }
+		            if(index == '5' && direction =='up'){
+		                //Going to section 4!
+		                $('#section3').find('.slide').addClass('loadimage');
+		            }
+		            if(index == '4' && direction =='down'){
+		                //Going to section 4!
+		                $('#section4').find('.slide').addClass('loadimage');
+		            }
+		            if(index == '6' && direction =='up'){
+		                //Going to section 4!
+		                $('#section4').find('.slide').addClass('loadimage');
+		            }
+		        }
 				 
 			});
 			
@@ -81,17 +103,17 @@
 		</div>
 </div>
 <div class="section about3 about table" id="section2"> 
-	<h1>The Team</h1>
+	<h1>About Us</h1>
 		<div class="w1200">
 			<div class="about3-block border one">
 				<h2>The Origins</h2>
 				<div class="about3-origins">
-					<p><span>United Kingdom</span></p>
-					<p><span>United States</span></p>
-					<p><span>Taiwan</span></p>
-					<p><span>United Kingdom</span></p>
-					<p><span>United States</span></p>
-					<p><span>Taiwan</span></p>
+					<p><span>China</span></p>
+					<p><span>South Korea</span></p>
+					<p><span>New Zealand</span></p>
+					<p><span>Indonesia</span></p>
+					<p><span>Australia</span></p>
+					<p><span>Hong Kong</span></p>
 				</div>
 			</div>
 			<div class="about3-block border two">
@@ -134,37 +156,93 @@
 			</div>
 		</div>
 	</div>
-<div class="section" id="section3">
+<div class="section projects" id="section3">
 	<h1>Carat24 Hotel</h1>
-	<div class="slide slide0"></div>
-	<div class="slide slide1"></div>
-	<div class="slide slide2"></div>
-	<div class="slide slide3"></div>
-	<div class="slide slide4"></div>
-	<div class="slide slide5"></div>
-	<div class="slide slide6"></div>
-	<div class="slide slide7"></div>
-	<div class="slide slide8"></div>
-	<div class="slide slide9"></div>
-	<div class="slide slide10"></div>
-	<div class="slide slide11"></div>
-	<div class="slide slide12"></div>
-	<div class="slide slide13"></div>
-	<div class="slide slide14"></div>
-	<div class="slide slide15"></div>
-
+	<div class="slide carat slide0"></div>
+	<div class="slide carat slide1"></div>
+	<div class="slide carat slide2"></div>
+	<div class="slide carat slide3"></div>
+	<div class="slide carat slide4"></div>
+	<div class="slide carat slide5"></div>
+	<div class="slide carat slide6"></div>
+	<div class="slide carat slide7"></div>
+	<div class="slide carat slide8"></div>
+	<div class="slide carat slide9"></div>
+	<div class="slide carat slide10"></div>
+	<div class="slide carat slide11"></div>
+	<div class="slide carat slide12"></div>
+	<div class="slide carat slide13"></div>
+	<div class="slide carat slide14"></div>
+	<div class="slide carat slide15"></div>
 </div>
 <div class="section" id="section4">
-
+	<h1>Titanic Deluxe Hotel</h1>
+	<div class="slide titanic slide0"></div>
+	<div class="slide titanic slide1"></div>
+	<div class="slide titanic slide2"></div>
+	<div class="slide titanic slide3"></div>
+	<div class="slide titanic slide4"></div>
+	<div class="slide titanic slide5"></div>
+	<div class="slide titanic slide6"></div>
+	<div class="slide titanic slide7"></div>
+	<div class="slide titanic slide8"></div>
 </div>
 <div class="section" id="section5">
-
+	<h1>KIĞILI HQ Office</h1>
+	<div class="slide kigili slide0"></div>
+	<div class="slide kigili slide1"></div>
+	<div class="slide kigili slide2"></div>
+	<div class="slide kigili slide3"></div>
+	<div class="slide kigili slide4"></div>
+	<div class="slide kigili slide5"></div>
+	<div class="slide kigili slide6"></div>
+	<div class="slide kigili slide7"></div>
+	<div class="slide kigili slide8"></div>
+	<div class="slide kigili slide9"></div>
+	<div class="slide kigili slide10"></div>
+	<div class="slide kigili slide11"></div>
+	<div class="slide kigili slide12"></div>
+	<div class="slide kigili slide13"></div>
+	<div class="slide kigili slide14"></div>
+	<div class="slide kigili slide15"></div>
 </div>
 <div class="section" id="section6">
-
+	<h1>Buildec Decoration Mall</h1>
+	<div class="slide buildec slide0"></div>
+	<div class="slide buildec slide1"></div>
+	<div class="slide buildec slide2"></div>
+	<div class="slide buildec slide3"></div>
+	<div class="slide buildec slide4"></div>
+	<div class="slide buildec slide5"></div>
+	<div class="slide buildec slide6"></div>
+	<div class="slide buildec slide7"></div>
+	<div class="slide buildec slide8"></div>
+	<div class="slide buildec slide9"></div>
+	<div class="slide buildec slide10"></div>
+	<div class="slide buildec slide11"></div>
+	<div class="slide buildec slide12"></div>
+	<div class="slide buildec slide13"></div>
+	<div class="slide buildec slide14"></div>
+	<div class="slide buildec slide15"></div>
 </div>
 <div class="section" id="section7">
-
+	<h1>Swanson Luxery Houses</h1>
+	<div class="slide swanson slide0"></div>
+	<div class="slide swanson slide1"></div>
+	<div class="slide swanson slide2"></div>
+	<div class="slide swanson slide3"></div>
+	<div class="slide swanson slide4"></div>
+	<div class="slide swanson slide5"></div>
+	<div class="slide swanson slide6"></div>
+	<div class="slide swanson slide7"></div>
+	<div class="slide swanson slide8"></div>
+	<div class="slide swanson slide9"></div>
+	<div class="slide swanson slide10"></div>
+	<div class="slide swanson slide11"></div>
+	<div class="slide swanson slide12"></div>
+	<div class="slide swanson slide13"></div>
+	<div class="slide swanson slide14"></div>
+	<div class="slide swanson slide15"></div>
 </div>
 <div class="section" id="section8">
 
