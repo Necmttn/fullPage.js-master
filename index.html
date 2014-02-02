@@ -31,20 +31,29 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var pepe = $.fn.fullpage({
-				anchors: ['intro', '', '3rdPage', '4thpage', 'lastPage'],
+				anchors: [
+				'intro',
+				'to-honor-to-create',
+				'about-us',
+				'4thpage', 
+				'project'
+				],
+				paddingTop: 20,
+			    paddingBottom: 20,
+				autoScrolling: true,
 				navigation: true,
 	            navigationPosition: 'right',
 	            scrollOverflow: false,
 	            afterLoad: function (anchorLink, index) {
 	                //About 1
 	                if (anchorLink == 'about-us') {
-	                    $('#section1').find('.fade').delay(500).fadeIn('slow');
+	                    $('#section0').find('.fade').delay(500).fadeIn('slow');
 	                }
 	                if (anchorLink != 'about-us') {
-	                    $('#section1').find('.fade').delay(500).fadeOut('slow');
+	                    $('#section0').find('.fade').delay(500).fadeOut('slow');
 	                }
 	                //About 3
-	                if (anchorLink == '3rdPage') {
+	                if (anchorLink == 'about-us') {
 	                    $('#section2').find('.one').delay(500).fadeIn('slow');
 	                    $('#section2').find('.two').delay(700).fadeIn('slow');
 	                    $('#section2').find('.three').delay(900).fadeIn('slow');
@@ -53,7 +62,7 @@
 	                    $('#section2').find('.five').delay(1300).fadeIn('slow');
 	                    $('#section2').find('.six').delay(1500).fadeIn('slow');
 	                }
-	                if (anchorLink != '3rdPage') {
+	                if (anchorLink != 'about-us') {
 	                    $('#section2').find('.about3-block').delay(500).fadeOut('slow');
 	                    $('#section2').find('.about3-divider').delay(500).fadeOut('slow');
 	                }
@@ -61,20 +70,40 @@
 	            onLeave: function(index, direction){
 		            //after leaving section 3
 		            if(index == '3' && direction =='down'){
-		                //Going to section 4!
 		                $('#section3').find('.slide').addClass('loadimage');
 		            }
 		            if(index == '5' && direction =='up'){
-		                //Going to section 4!
 		                $('#section3').find('.slide').addClass('loadimage');
 		            }
+		            // section 4 
 		            if(index == '4' && direction =='down'){
-		                //Going to section 4!
+		                
 		                $('#section4').find('.slide').addClass('loadimage');
 		            }
 		            if(index == '6' && direction =='up'){
-		                //Going to section 4!
+		                
 		                $('#section4').find('.slide').addClass('loadimage');
+		            }
+		            //  Section 5
+		            if(index == '5' && direction =='down'){
+		                $('#section5').find('.slide').addClass('loadimage');
+		            }
+		            if(index == '7' && direction =='up'){
+		                $('#section5').find('.slide').addClass('loadimage');
+		            }
+		            // section 6
+		            if(index == '6' && direction =='down'){
+		                $('#section6').find('.slide').addClass('loadimage');
+		            }
+		            if(index == '8' && direction =='up'){
+		                $('#section6').find('.slide').addClass('loadimage');
+		            }
+		            // section 7
+		            if(index == '7' && direction =='down'){
+		                $('#section7').find('.slide').addClass('loadimage');
+		            }
+		            if(index == '9' && direction =='up'){
+		                $('#section7').find('.slide').addClass('loadimage');
 		            }
 		        }
 				 
@@ -86,7 +115,7 @@
 </head>
 <body>
 <div class="section intro" id="section0">
-	<img src="imgs/logo.png">
+	<img id="fade" src="imgs/logo.png">
 
 </div>
 <div class="section  about2 about" id="section1">
@@ -152,11 +181,11 @@
 				<p class="videogame">We believe the promise of new possibilities for Architecture to engage and shape the future lives in the revision of boundaries between the urban, the rural and the natural.Architecture is small, but it can tackle big ideas powerfully and playfully and engage the critical gravity of our time. Our work is committed to moving beyond the projected to the possible if we refashion architecture as a performative process and tool to re-envision our environment.</p>
 			</div>
 			<div class="about3-block six">
-				<img src="imgs/3dmodel.jpg"></a>
+				<img src="imgs/3dmodel.jpg">
 			</div>
 		</div>
 	</div>
-<div class="section projects" id="section3">
+<div class="section projects carat" id="section3">
 	<h1>Carat24 Hotel</h1>
 	<div class="slide carat slide0"></div>
 	<div class="slide carat slide1"></div>
@@ -174,8 +203,9 @@
 	<div class="slide carat slide13"></div>
 	<div class="slide carat slide14"></div>
 	<div class="slide carat slide15"></div>
+	<div class="slide carat slide16"></div>
 </div>
-<div class="section" id="section4">
+<div class="section projects titanic" id="section4">
 	<h1>Titanic Deluxe Hotel</h1>
 	<div class="slide titanic slide0"></div>
 	<div class="slide titanic slide1"></div>
@@ -187,26 +217,13 @@
 	<div class="slide titanic slide7"></div>
 	<div class="slide titanic slide8"></div>
 </div>
-<div class="section" id="section5">
+<div class="section projects" id="section5">
 	<h1>KIĞILI HQ Office</h1>
 	<div class="slide kigili slide0"></div>
 	<div class="slide kigili slide1"></div>
 	<div class="slide kigili slide2"></div>
-	<div class="slide kigili slide3"></div>
-	<div class="slide kigili slide4"></div>
-	<div class="slide kigili slide5"></div>
-	<div class="slide kigili slide6"></div>
-	<div class="slide kigili slide7"></div>
-	<div class="slide kigili slide8"></div>
-	<div class="slide kigili slide9"></div>
-	<div class="slide kigili slide10"></div>
-	<div class="slide kigili slide11"></div>
-	<div class="slide kigili slide12"></div>
-	<div class="slide kigili slide13"></div>
-	<div class="slide kigili slide14"></div>
-	<div class="slide kigili slide15"></div>
 </div>
-<div class="section" id="section6">
+<div class="section projects" id="section6">
 	<h1>Buildec Decoration Mall</h1>
 	<div class="slide buildec slide0"></div>
 	<div class="slide buildec slide1"></div>
@@ -225,7 +242,7 @@
 	<div class="slide buildec slide14"></div>
 	<div class="slide buildec slide15"></div>
 </div>
-<div class="section" id="section7">
+<div class="section projects" id="section7">
 	<h1>Swanson Luxery Houses</h1>
 	<div class="slide swanson slide0"></div>
 	<div class="slide swanson slide1"></div>
@@ -233,23 +250,12 @@
 	<div class="slide swanson slide3"></div>
 	<div class="slide swanson slide4"></div>
 	<div class="slide swanson slide5"></div>
-	<div class="slide swanson slide6"></div>
-	<div class="slide swanson slide7"></div>
-	<div class="slide swanson slide8"></div>
-	<div class="slide swanson slide9"></div>
-	<div class="slide swanson slide10"></div>
-	<div class="slide swanson slide11"></div>
-	<div class="slide swanson slide12"></div>
-	<div class="slide swanson slide13"></div>
-	<div class="slide swanson slide14"></div>
-	<div class="slide swanson slide15"></div>
 </div>
 <div class="section" id="section8">
 
 </div>
 <div class="section" id="section9">
 </div>
-
 
 
 </body>

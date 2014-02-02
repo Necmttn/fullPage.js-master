@@ -43,6 +43,9 @@
     font-style: normal;
 
 }
+
+body { border-left: 21px solid #fff; }
+body { border-right: 21px solid #fff; }
 /* @end */
 
 /* @group Misc. */
@@ -1452,10 +1455,15 @@ a.thanks-btn:hover, a.thanks-btn:active{
 
 /* @end */
 /* @group General Slide Styles */
-.projects{
+.projects.carat{
 	background: #fff url('../imgs/inverted.jpg') no-repeat;
 	background-size: cover;
 }
+.projects.titanic{
+	background: #fff url('../imgs/inverted1.jpg') no-repeat;
+	background-size: cover;
+}
+
 
 	.projects p{
 				}

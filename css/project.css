@@ -1,36 +1,60 @@
 .slide.table {background-size: cover; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;height: 100%;}
 /*CARAT 24 begin*/
-.slide.carat.slide0.loadimage.table {background: url(../projects/carat24/1carat.jpg);background-size: cover;}
-.slide.carat.slide1.loadimage.table {background: url(../projects/carat24/2carat.jpg);background-size: cover;}
-.slide.carat.slide2.loadimage.table {background: url(../projects/carat24/3carat.jpg);background-size: cover;}
-.slide.carat.slide3.loadimage.table {background: url(../projects/carat24/4carat.jpg);background-size: cover;}
-.slide.carat.slide4.loadimage.table {background: url(../projects/carat24/5carat.jpg);background-size: cover;}
-.slide.carat.slide5.loadimage.table {background: url(../projects/carat24/6carat.jpg);background-size: cover;}
-.slide.carat.slide6.loadimage.table {background: url(../projects/carat24/7carat.jpg);background-size: cover;}
-.slide.carat.slide7.loadimage.table {background: url(../projects/carat24/8carat.jpg);background-size: cover;}
-.slide.carat.slide8.loadimage.table {background: url(../projects/carat24/9carat.jpg);background-size: cover;}
-.slide.carat.slide9.loadimage.table {background: url(../projects/carat24/10carat.jpg);background-size: cover;}
-.slide.carat.slide10.loadimage.table {background: url(../projects/carat24/11carat.jpg);background-size: cover;}
-.slide.carat.slide11.loadimage.table {background: url(../projects/carat24/12carat.jpg);background-size: cover;}
-.slide.carat.slide12.loadimage.table {background: url(../projects/carat24/13carat.jpg);background-size: cover;}
-.slide.carat.slide13.loadimage.table {background: url(../projects/carat24/14carat.jpg);background-size: cover;}
-.slide.carat.slide14.loadimage.table {background: url(../projects/carat24/15carat.jpg);background-size: cover;}
-.slide.carat.slide15.loadimage.table {background: url(../projects/carat24/16carat.jpg);background-size: cover;}
+.slide.carat.slide1.loadimage.table {background: url(../projects/carat24/1carat.jpg);background-size: cover;}
+.slide.carat.slide2.loadimage.table {background: url(../projects/carat24/2carat.jpg);background-size: cover;}
+.slide.carat.slide3.loadimage.table {background: url(../projects/carat24/3carat.jpg);background-size: cover;}
+.slide.carat.slide4.loadimage.table {background: url(../projects/carat24/4carat.jpg);background-size: cover;}
+.slide.carat.slide5.loadimage.table {background: url(../projects/carat24/5carat.jpg);background-size: cover;}
+.slide.carat.slide6.loadimage.table {background: url(../projects/carat24/6carat.jpg);background-size: cover;}
+.slide.carat.slide7.loadimage.table {background: url(../projects/carat24/7carat.jpg);background-size: cover;}
+.slide.carat.slide8.loadimage.table {background: url(../projects/carat24/8carat.jpg);background-size: cover;}
+.slide.carat.slide9.loadimage.table {background: url(../projects/carat24/9carat.jpg);background-size: cover;}
+.slide.carat.slide10.loadimage.table {background: url(../projects/carat24/10carat.jpg);background-size: cover;}
+.slide.carat.slide11.loadimage.table {background: url(../projects/carat24/11carat.jpg);background-size: cover;}
+.slide.carat.slide12.loadimage.table {background: url(../projects/carat24/12carat.jpg);background-size: cover;}
+.slide.carat.slide13.loadimage.table {background: url(../projects/carat24/13carat.jpg);background-size: cover;}
+.slide.carat.slide14.loadimage.table {background: url(../projects/carat24/14carat.jpg);background-size: cover;}
+.slide.carat.slide15.loadimage.table {background: url(../projects/carat24/15carat.jpg);background-size: cover;}
+.slide.carat.slide16.loadimage.table {background: url(../projects/carat24/16carat.jpg);background-size: cover;}
 /*carat24 end*/
 /*titanic begin*/
-.slide.titanic.slide0.loadimage.table {background: url(../projects/titanic/1titanic.jpg);background-size: cover;}
-.slide.titanic.slide1.loadimage.table {background: url(../projects/titanic/2titanic.jpg);background-size: cover;}
-.slide.titanic.slide2.loadimage.table {background: url(../projects/titanic/3titanic.jpg);background-size: cover;}
-.slide.titanic.slide3.loadimage.table {background: url(../projects/titanic/4titanic.jpg);background-size: cover;}
-.slide.titanic.slide4.loadimage.table {background: url(../projects/titanic/5titanic.jpg);background-size: cover;}
-.slide.titanic.slide5.loadimage.table {background: url(../projects/titanic/6titanic.jpg);background-size: cover;}
-.slide.titanic.slide6.loadimage.table {background: url(../projects/titanic/7titanic.jpg);background-size: cover;}
-.slide.titanic.slide7.loadimage.table {background: url(../projects/titanic/8titanic.jpg);background-size: cover;}
-.slide.titanic.slide8.loadimage.table {background: url(../projects/titanic/9titanic.jpg);background-size: cover;}
-.slide.titanic.slide9.loadimage.table {background: url(../projects/titanic/10titanic.jpg);background-size: cover;}
-.slide.titanic.slide10.loadimage.table {background: url(../projects/titanic/11titanic.jpg);background-size: cover;}
-.slide.titanic.slide11.loadimage.table {background: url(../projects/titanic/12titanic.jpg);background-size: cover;}
-.slide.titanic.slide12.loadimage.table {background: url(../projects/titanic/13titanic.jpg);background-size: cover;}
-.slide.titanic.slide13.loadimage.table {background: url(../projects/titanic/14titanic.jpg);background-size: cover;}
-.slide.titanic.slide14.loadimage.table {background: url(../projects/titanic/15titanic.jpg);background-size: cover;}
-.slide.titanic.slide15.loadimage.table {background: url(../projects/titanic/16titanic.jpg);background-size: cover;}
+.slide.titanic.slide1.loadimage.table {background: url(../projects/titanic/1titanic.jpg);background-size: cover;}
+.slide.titanic.slide2.loadimage.table {background: url(../projects/titanic/2titanic.jpg);background-size: cover;}
+.slide.titanic.slide3.loadimage.table {background: url(../projects/titanic/3titanic.jpg);background-size: cover;}
+.slide.titanic.slide4.loadimage.table {background: url(../projects/titanic/4titanic.jpg);background-size: cover;}
+.slide.titanic.slide5.loadimage.table {background: url(../projects/titanic/5titanic.jpg);background-size: cover;}
+.slide.titanic.slide6.loadimage.table {background: url(../projects/titanic/6titanic.jpg);background-size: cover;}
+.slide.titanic.slide7.loadimage.table {background: url(../projects/titanic/7titanic.jpg);background-size: cover;}
+.slide.titanic.slide8.loadimage.table {background: url(../projects/titanic/8titanic.jpg);background-size: cover;}
+.slide.titanic.slide9.loadimage.table {background: url(../projects/titanic/9titanic.jpg);background-size: cover;}
+/*titanic end*/
+/*kigili begin*/
+.slide.kigili.slide1.loadimage.table {background: url(../projects/kigili/1kigili.jpg);background-size: cover;}
+.slide.kigili.slide2.loadimage.table {background: url(../projects/kigili/2kigili.jpg);background-size: cover;}
+/*kigili end*/
+/*buildec begin*/
+.slide.buildec.slide1.loadimage.table {background: url(../projects/buildec/1buildec.jpg);background-size: cover;}
+.slide.buildec.slide2.loadimage.table {background: url(../projects/buildec/2buildec.jpg);background-size: cover;}
+.slide.buildec.slide3.loadimage.table {background: url(../projects/buildec/3buildec.jpg);background-size: cover;}
+.slide.buildec.slide4.loadimage.table {background: url(../projects/buildec/4buildec.jpg);background-size: cover;}
+.slide.buildec.slide5.loadimage.table {background: url(../projects/buildec/5buildec.jpg);background-size: cover;}
+.slide.buildec.slide6.loadimage.table {background: url(../projects/buildec/6buildec.jpg);background-size: cover;}
+.slide.buildec.slide7.loadimage.table {background: url(../projects/buildec/7buildec.jpg);background-size: cover;}
+.slide.buildec.slide8.loadimage.table {background: url(../projects/buildec/8buildec.jpg);background-size: cover;}
+.slide.buildec.slide9.loadimage.table {background: url(../projects/buildec/9buildec.jpg);background-size: cover;}
+.slide.buildec.slide10.loadimage.table {background: url(../projects/buildec/10buildec.jpg);background-size: cover;}
+.slide.buildec.slide11.loadimage.table {background: url(../projects/buildec/11buildec.jpg);background-size: cover;}
+.slide.buildec.slide12.loadimage.table {background: url(../projects/buildec/12buildec.jpg);background-size: cover;}
+.slide.buildec.slide13.loadimage.table {background: url(../projects/buildec/13buildec.jpg);background-size: cover;}
+.slide.buildec.slide14.loadimage.table {background: url(../projects/buildec/14buildec.jpg);background-size: cover;}
+.slide.buildec.slide15.loadimage.table {background: url(../projects/buildec/15buildec.jpg);background-size: cover;}
+/*buildec end*/
+/*swanson begin*/
+.slide.swanson.slide1.loadimage.table {background: url(../projects/swanson/1swanson.jpg);background-size: cover;}
+.slide.swanson.slide2.loadimage.table {background: url(../projects/swanson/2swanson.jpg);background-size: cover;}
+.slide.swanson.slide3.loadimage.table {background: url(../projects/swanson/3swanson.jpg);background-size: cover;}
+.slide.swanson.slide4.loadimage.table {background: url(../projects/swanson/4swanson.jpg);background-size: cover;}
+.slide.swanson.slide5.loadimage.table {background: url(../projects/swanson/5swanson.jpg);background-size: cover;}
+/*swanson*/
+
+
